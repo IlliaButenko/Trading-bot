@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon .\\src\\index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.2",
+    "express": "^4.17.1",
+    "ganache-cli": "^6.12.2",
+    "nodemon": "^2.0.15",
+    "web3": "^1.6.1"
+  }
+}
